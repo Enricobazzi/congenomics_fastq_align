@@ -1,0 +1,26 @@
+---
+sample_dict:
+  sample1: 
+    id1:
+      ['path/to/fastqs', 'id1_R1.fastq.gz', 'id1_R2.fastq.gz']
+    id2:
+      ['path/to/fastqs2','id2_R1.fastq.gz', 'id2_R2.fastq.gz']
+  sample2:
+    id3:
+      ['path/to/fastqs', 'id3_R1.fastq.gz', 'id3_R2.fastq.gz']
+
+reference_fasta: "path/to/reference/reference.fa"
+
+output_folder: "path/to/output/folder"
+
+threads: 3
+
+alignment_name: "GenSpp_vX.Y_ref"
+
+call_bwa: "bwa"
+
+call_samtools: "samtools"
+
+call_picard: "${EBROOTPICARD}/picard.jar"
+
+call_gatk: "${EBROOTGATK}/GenomeAnalysisTK.jar"

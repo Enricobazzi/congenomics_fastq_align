@@ -1,0 +1,14 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# ds_store
+**/.DS_Store
+
+# pycache
+**/__pycache__/
+
+# notebooks checkpoints
+**/.ipynb_checkpoints/
+

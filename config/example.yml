@@ -1,0 +1,113 @@
+---
+# Example to align reads from the Lynx Genome Project to the Felis catus reference genome
+# on the EBD genomics cluster
+
+sample_dict:
+  c_lp_do_0153: 
+    B09HCABXX_2_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B09HCABXX_2_0_1.fastq.gz', 'B09HCABXX_2_0_2.fastq.gz']
+    B09HCABXX_1_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B09HCABXX_1_0_1.fastq.gz', 'B09HCABXX_1_0_2.fastq.gz']
+    B0B5KABXX_1_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B0B5KABXX_1_0_1.fastq.gz', 'B0B5KABXX_1_0_2.fastq.gz']
+    B0B5KABXX_2_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B0B5KABXX_2_0_1.fastq.gz', 'B0B5KABXX_2_0_2.fastq.gz']
+  c_lp_do_0173:
+    B09HCABXX_5_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B09HCABXX_5_0_1.fastq.gz', 'B09HCABXX_5_0_2.fastq.gz']
+    B09HCABXX_6_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B09HCABXX_6_0_1.fastq.gz', 'B09HCABXX_6_0_2.fastq.gz']
+    B0B5KABXX_6_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B0B5KABXX_6_0_1.fastq.gz', 'B0B5KABXX_6_0_2.fastq.gz']
+    B0B5KABXX_5_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B0B5KABXX_5_0_1.fastq.gz', 'B0B5KABXX_5_0_2.fastq.gz']
+  c_lp_do_0443:
+    D0D6JABXX_4_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'D0D6JABXX_4_0_2.fastq.gz', 'D0D6JABXX_4_0_1.fastq.gz']
+    D0D6JABXX_3_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'D0D6JABXX_3_0_1.fastq.gz', 'D0D6JABXX_3_0_2.fastq.gz']
+    B0999ABXX_3_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B0999ABXX_3_0_2.fastq.gz', 'B0999ABXX_3_0_1.fastq.gz']
+    B0999ABXX_4_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B0999ABXX_4_0_2.fastq.gz', 'B0999ABXX_4_0_1.fastq.gz']
+  c_lp_sm_0138:
+    B09HCABXX_3_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B09HCABXX_3_0_1.fastq.gz', 'B09HCABXX_3_0_2.fastq.gz']
+    B09HCABXX_4_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B09HCABXX_4_0_1.fastq.gz', 'B09HCABXX_4_0_2.fastq.gz']
+    B0B5KABXX_3_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B0B5KABXX_3_0_2.fastq.gz', 'B0B5KABXX_3_0_1.fastq.gz']
+    B0B5KABXX_4_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B0B5KABXX_4_0_1.fastq.gz', 'B0B5KABXX_4_0_2.fastq.gz']
+  c_lp_sm_0140:
+    C02CHABXX_1_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'C02CHABXX_1_0_2.fastq.gz', 'C02CHABXX_1_0_1.fastq.gz']
+    C02CHABXX_2_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'C02CHABXX_2_0_2.fastq.gz', 'C02CHABXX_2_0_1.fastq.gz']
+    C02CHABXX_4_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'C02CHABXX_4_0_1.fastq.gz', 'C02CHABXX_4_0_2.fastq.gz']
+    C02CHABXX_3_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'C02CHABXX_3_0_2.fastq.gz', 'C02CHABXX_3_0_1.fastq.gz']
+  c_lp_sm_0185:
+    D0D6JABXX_2_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'D0D6JABXX_2_0_1.fastq.gz', 'D0D6JABXX_2_0_2.fastq.gz']
+    D0D6JABXX_1_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'D0D6JABXX_1_0_2.fastq.gz', 'D0D6JABXX_1_0_1.fastq.gz']
+    B0999ABXX_2_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B0999ABXX_2_0_1.fastq.gz', 'B0999ABXX_2_0_2.fastq.gz']
+    B0999ABXX_1_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B0999ABXX_1_0_2.fastq.gz', 'B0999ABXX_1_0_1.fastq.gz']
+  c_lp_sm_0186:
+    D0D6JABXX_5_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'D0D6JABXX_5_0_1.fastq.gz', 'D0D6JABXX_5_0_2.fastq.gz']
+    D0D6JABXX_6_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'D0D6JABXX_6_0_1.fastq.gz', 'D0D6JABXX_6_0_2.fastq.gz']
+    B0999ABXX_6_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B0999ABXX_6_0_1.fastq.gz', 'B0999ABXX_6_0_2.fastq.gz']
+    B0999ABXX_5_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B0999ABXX_5_0_1.fastq.gz', 'B0999ABXX_5_0_2.fastq.gz']
+  c_lp_sm_0298:
+    D0D6JABXX_8_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'D0D6JABXX_8_0_2.fastq.gz', 'D0D6JABXX_8_0_1.fastq.gz']
+    D0D6JABXX_7_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'D0D6JABXX_7_0_1.fastq.gz', 'D0D6JABXX_7_0_2.fastq.gz']
+    B0999ABXX_7_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B0999ABXX_7_0_1.fastq.gz', 'B0999ABXX_7_0_2.fastq.gz']
+    B0999ABXX_8_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B0999ABXX_8_0_1.fastq.gz', 'B0999ABXX_8_0_2.fastq.gz']
+  c_lp_sm_0359:
+    C02CHABXX_6_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'C02CHABXX_6_0_2.fastq.gz', 'C02CHABXX_6_0_1.fastq.gz']
+    C02CHABXX_7_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'C02CHABXX_7_0_2.fastq.gz', 'C02CHABXX_7_0_1.fastq.gz']
+    C02CHABXX_5_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'C02CHABXX_5_0_2.fastq.gz', 'C02CHABXX_5_0_1.fastq.gz']
+    C02CHABXX_8_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'C02CHABXX_8_0_2.fastq.gz', 'C02CHABXX_8_0_1.fastq.gz']
+  h_lp_do_0007:
+    B09HCABXX_8_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B09HCABXX_8_0_2.fastq.gz', 'B09HCABXX_8_0_1.fastq.gz']
+    B09HCABXX_7_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B09HCABXX_7_0_2.fastq.gz', 'B09HCABXX_7_0_1.fastq.gz']
+    B0B5KABXX_7_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B0B5KABXX_7_0_1.fastq.gz', 'B0B5KABXX_7_0_2.fastq.gz']
+    B0B5KABXX_8_0:
+      ['/backup/grupolince/raw_data/PROYECTO_GENOMA', 'B0B5KABXX_8_0_1.fastq.gz', 'B0B5KABXX_8_0_2.fastq.gz']
+
+fastq_folder: '/backup/grupolince/raw_data/PROYECTO_GENOMA'
+
+reference_fasta: "/GRUPOS/grupolince/reference_genomes/felis_catus_genome/Felis_catus.Felis_catus_9.0.dna.toplevel.fa"
+
+output_folder: "/GRUPOS/grupolince/CatRef_bams"
+
+threads: 3
+
+alignment_name: "FeCa_9.0_ref"
+
+call_bwa: "bwa"
+
+call_samtools: "samtools"
+
+call_picard: "java -jar /opt/picard-tools/picard.jar"
+
+call_gatk: "java -jar /opt/GATK/GenomeAnalysisTK.jar"
