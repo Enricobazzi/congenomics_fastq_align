@@ -84,7 +84,7 @@ Give your alignment run a unique name in order to distinguish it from other alig
 
 ### *call_bwa*, *call_samtools*, *call_picard* and *call_gatk*
 
-These should be the commands needed to execute bwa, samtools, picard and gatk or the paths to used to call these tools
+These should be the commands needed to execute bwa, samtools, picard and gatk or the paths to their executables
 
 -----------
 # How does the pipeline work
